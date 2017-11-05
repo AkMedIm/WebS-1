@@ -1,0 +1,95 @@
+
+.banner{
+  background-color: #dfdfe2;
+  height: 100vh;
+
+}
+span h6{
+  position: relative;
+  bottom: 5px;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+  color: grey;
+}
+
+.closebtn h6{
+  position: relative;
+  bottom: 12px;
+  padding: 0 0 0 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.banner span{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    font-size: 20px;
+}
+.banner h1{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.banner p{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.96);
+    overflow-y: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay .overlay-content a{
+  text-decoration: none;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  text-decoration: none;
+    position: absolute;
+    top: 18px;
+    right: 60px;
+    font-size: 60px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
