@@ -1,34 +1,11 @@
-
+/*===================
+  NAVIGATION
+=====================*/
 .hidden{
   visibility: hidden;
 }
-.banner{
-  z-index: 1;
-  position: absolute;
-  /*background-color: #dfdfe2;
-  height: 100vh;*/
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
 
-}
-.banner span{
-  color: grey;
-  /*transition: 0.2s;*/
-}
-span h6{
-  position: relative;
-  bottom: 5px;
-  padding: 12px;
-  text-align: center;
-  font-size: 15px;
-  display: inline-block;
 
-  transition: 1s;
-}
-.banner span :hover{
-  color: black;
-  transition: 1s;
-}
 
 .closebtn h6{
   position: relative;
@@ -39,22 +16,7 @@ span h6{
   font-size: 15px;
 }
 
-.banner span{
-    position: absolute;
-    top: 55px;
-    right: 56px;
-    font-size: 20px;
-}
-.banner h1{
-  position: relative;
-  top: 50px;
-  text-align: center;
-}
-.banner p{
-  text-align: center;
-  position: relative;
-  top: 100px;
-}
+
 .overlay {
     height: 0%;
     width: 100%;
@@ -99,6 +61,69 @@ span h6{
     font-size: 60px;
 }
 
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/*===================
+  BANNER
+=====================*/
+
+.banner{
+  z-index: 1;
+  position: absolute;
+  /*background-color: #dfdfe2;
+  height: 100vh;*/
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+}
+
+.banner span{
+  color: grey;
+  /*transition: 0.2s;*/
+}
+
+.banner span :hover{
+  color: black;
+  transition: 1s;
+}
+
+span h6{
+  position: relative;
+  bottom: 5px;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+
+  transition: 1s;
+}
+
+.banner span{
+    position: absolute;
+    top: 55px;
+    right: 56px;
+    font-size: 20px;
+}
+.banner h1{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.banner p{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
 .carousel-item{
   position: relative;
   padding: 0 0 0 0;
@@ -118,12 +143,211 @@ header{
   background-color: #dfdfe2;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+/*===================
+  3-CONTENT
+=====================*/
+
+
+section{
+  background-color: #dfdfe2;
+}
+
+.content .container-fluid .container{
+  background-color:#dfdfe2;
+  /*height:900px ;*/
+  /*background-color: lightgreen;*/
+  position: relative;
+}
+
+      /*===================
+        3.1-CONTENT
+      =====================*/
+
+.row-1{
+  position: relative;
+  left:  810px;
+  width: 20%;
+  height: 20%;
+}
+.row-1 .deer{
+  width: 60%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  display: inline-block;
+  z-index: 2;
+}
+.deer img{
+  width: 250px;
+  height: 373px;
+}
+
+.row-1 .lines{
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 380px;
+  left: 200px;
+  z-index: 1;
+}
+.lines img{
+
+}
+
+.row-1 .rect{
+  position: absolute;
+  top: 128px;
+  left: 100px;
+}
+.rect img{
+  width: 379px;
+  height: 379px;
+}
+.row-1-text{
+  margin-right: ;
+  bottom: 180px;
+  font-size:31px;
+  line-height: 35px;
+  font-weight: bold;
+  display: block;
+  width: 80%;
+  position: relative;
+  right: 190px;
+}
+
+      /*===================
+        3.2-CONTENT
+      =====================*/
+
+      .honey{
+        display: inline-block;
+      }
+
+      .rect-text{
+        max-width: 235px;
+        border:5px solid #000 ;
+        padding: 50px 50px;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-left: -70px;
+      }
+
+      /*===================
+        3.2-CONTENT
+      =====================*/
+
+      .organic{
+        display: block;
+        position: relative;
+        top: -180px;
+        margin-left: 75%;
+        height: auto;
+        width: 100%;
+      }
+
+      .organic-img{
+        width: auto;
+        display: block;
+      }
+
+      .organic-text{
+        letter-spacing: 2px;
+        font-size: 14px;
+        line-height: 22px;
+        position: absolute;
+        text-align:center;
+        width: 50%;
+        display: block;
+        right: 0;
+        bottom: 0;
+        float: right;
+      }
+
+      /*===================
+        3.3-CONTENT
+      =====================*/
+
+      .tradition{
+        position: relative;
+        top: -130px;
+        left:-100px ;
+        display:block;
+      }
+
+      .pink-square{
+        display: inline-block;
+        top: 0;
+      }
+
+      .pink-square img{
+        width: 120%;
+      }
+
+      .tradition .text{
+        position: relative;
+        top:-780px;
+        right:-100px ;
+        font-size: 55px;
+        font-weight: bold;
+        z-index: 1;
+      }
+
+      .para{
+        z-index: 1;
+        width: 25%;
+        font-size: 15px;
+        font-weight: 500;
+        position: relative;
+        top:-780px;
+        right:-210px ;
+      }
+
+      .white-rect{
+        position: relative;
+        top:-1070px;
+        right:-450px;
+        background-color: white;
+        height:600px;
+        width: 500px;
+      }
+
+      .homemade{
+        position: relative;
+        top:-99px;
+        width:30%;
+        margin:auto;
+      }
+
+      .secret{
+        position: relative;
+        top: -50px;
+        text-align: center;
+        margin: auto;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        display: block;
+        width: 40%;
+      }
+
+      .mixer{
+        position: relative;
+        top: ;
+        width: 50%;
+        margin: auto;
+      }
+
+
+
+
+/*===================
+  MEDIA QUERIES
+=====================*/
+
+@media screen and (min-width: 1200px){
+.content .container-fluid .container {
+    max-width: 1440px;
   }
 }
