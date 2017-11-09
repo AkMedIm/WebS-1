@@ -407,11 +407,55 @@ section{
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 3px solid #333;
+  border-bottom: 2px solid #333;
   padding: 3px 10px;
 }
 
+.news-title{
+  font-weight: bold;
+  font-size: 40px;
+  padding: 40px 0 50px 0;
+}
+.button{
+  position: relative;
+  top:20px;
+  right:20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
 
+.news-form .fa-long-arrow-right{
+  font-weight: 100;
+  font-size: 40px;
+}
+.location-text{
+  line-height: 14px;
+  font-size:15px;
+}
+.location-text a{
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+.location-text a:hover{
+  text-decoration: none;
+  color: #2980b9;
+  transition: .5s;
+}
+.location{
+  font-weight: lighter;
+  padding: 40px 0 0 0;
+  color: grey;
+}
+
+.map a,i {
+  float: right;
+  padding:20px 15px 0 0;
+}
+.foot{
+  padding: 150px 0 20px 0;
+}
 /*===================
   MEDIA QUERIES
 =====================*/
