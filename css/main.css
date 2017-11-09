@@ -393,8 +393,23 @@ section{
       }
 
 
+/*===================
+      4-FOOTER
+=====================*/
 
-
+.text-line{
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+  outline: none;
+  outline-style: none;
+  outline-offset: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #333;
+  padding: 3px 10px;
+}
 
 
 /*===================
