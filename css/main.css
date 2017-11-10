@@ -78,16 +78,36 @@
 
 .banner{
   z-index: 1;
-  position: absolute;
+  position: fixed;
   /*background-color: #dfdfe2;
   height: 100vh;*/
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 
 }
+.logo .underLogo{
+ color: grey;
+}
+.logo .bigLogo{
+ font-size: 30px;
 
-.banner span{
+}
+.logo{
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  text-align: center;
+  transition: .4s;
+}
+.logo:hover{
+  cursor: pointer;
+  transition: .4s;
+  text-shadow: 3px 3px 5px black;
+}
+
+.banner .menu{
   color: grey;
+
   /*transition: 0.2s;*/
 }
 
@@ -96,7 +116,8 @@
   transition: 1s;
 }
 
-span h6{
+.menu h6{
+
   position: relative;
   bottom: 5px;
   padding: 12px;
@@ -107,7 +128,7 @@ span h6{
   transition: 1s;
 }
 
-.banner span{
+.banner .menu{
     position: absolute;
     top: 55px;
     right: 56px;
@@ -140,6 +161,7 @@ span h6{
   width: 50%;
 }
 header{
+  margin:20px 20px 0 20px;
   background-color: #dfdfe2;
 }
 
@@ -149,6 +171,7 @@ header{
 
 
 section{
+    margin:0px 20px 20px 20px;
   background-color: #dfdfe2;
 }
 
@@ -315,7 +338,7 @@ section{
         top:-1070px;
         right:-450px;
         background-color: white;
-        height:600px;
+        height:0px;
         width: 500px;
       }
 
@@ -404,15 +427,15 @@ section{
 
 .text-line{
   background-color: transparent;
-  color: #333;
-  font-weight: bold;
+  color: blue;
+  font-weight: lighter;
   outline: none;
   outline-style: none;
   outline-offset: 0;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #333;
   padding: 3px 10px;
 }
 
@@ -422,6 +445,7 @@ section{
   padding: 40px 0 50px 0;
 }
 .button{
+
   position: relative;
   top:20px;
   right:20px;
@@ -460,6 +484,48 @@ section{
 }
 .foot{
   padding: 150px 0 20px 0;
+}
+.social{
+  padding: 200px 0 100px 0;
+}
+.social span{
+  font-size:20px ;
+  padding: 0 20px 0 0;
+  float: left;
+}
+.social span a{
+  color: black;
+  text-decoration: none;
+}
+.up span{
+  width: 60%;
+  margin: auto;
+}
+
+.copyright span{
+  letter-spacing: 2px;
+  display: inline-block;
+  font-size: 10px;
+}
+.cRight{
+
+  padding: 15px 0 0 0;
+}
+.credits{
+  letter-spacing: 2px;
+  float:right;
+  /*display: inline-block;*/
+}
+.credits span{
+  padding: 0 0 0 0;
+  font-size:10px;
+}
+.credits span a{
+  transition: .5s;
+}
+.credits span a:hover{
+  color: blue ;
+  transition: .5s;
 }
 /*===================
   MEDIA QUERIES
