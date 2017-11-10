@@ -21,7 +21,7 @@
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: rgba(0,0,0, 0.96);
@@ -204,6 +204,11 @@ section{
 .rect img{
   width: 379px;
   height: 379px;
+}
+.quote{
+  position: relative;
+  top: -20px;
+  float: left;
 }
 .row-1-text{
   margin-right: ;
