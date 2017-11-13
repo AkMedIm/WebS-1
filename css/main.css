@@ -448,7 +448,6 @@ section{
   padding: 40px 0 50px 0;
 }
 .button{
-
   position: relative;
   top:20px;
   right:20px;
@@ -538,7 +537,7 @@ section{
 
 @media screen and (min-width: 1200px){
 .content .container-fluid .container {
-    /*max-width: 1440px;*/
+    max-width: 1440px;
   }
 }
 @media screen and (max-width: 1542px){
@@ -593,16 +592,126 @@ section{
 
 }
 @media only screen and (max-width:375px) {
+  .organic-text{
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    top: 150px;
+    right:-25px ;
+  }
+  .organic{
+    margin:auto;
+    top: 0;
+    right: 90px;
+    width: 100%;
+  }
   .tradition .para{
-    top:-210px;
-    right:-100px;
-    width: auto;
-    font-size: 0.6rem;
+    top:295px;
+    right:-120px;
+    width: 48%;
+    font-size: 0.5rem;
+  }
+  .pink-square img{
+    width: 100%;
+    position: absolute;
+    top:280px;
+    left: 80px;
+  }
+  .homemade img{
+    width: 70%;
+  }
+  .homemade{
+    top: -80px;
+    left: 20px;
+    width: 80%;
+  }
+  .mixer{
+    top: -65px;
+  }
+  .discover{
+    font-size: .7rem;
+    top: 200px;
+    letter-spacing: 5px;
+  }
+  .order-box h5{
+    text-align: center;
+    margin: 0 auto;
+    font-size:25px;
+  }
+  .order-box p {
+    margin: 0 0 0 0;
+    padding: 20px 0 20px 0 ;
+    font-size: .8rem;
+  }
+  .orbox{
+    top: 70px;
+  }
+  .newsletter{
+    text-align: center;
+  }
+  .loc{
+    text-align: center;
+  }
+  .map {
+    padding: 30px 0 0 0;
+  }
+  .map a span{
+    text-align: center;
+    padding: 70px  50px 0 0px;
+    float: none;
+  }
+  .button{
+    left:100px ;
+    top: -50px;
+  }
+  .order-box{
+
+    padding:30px 30px 30px 30px ;
+    border: 2px solid;
+    float: none;
+    left: auto;
+    width: inherit;
+  }
+  .product-text{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    top: auto;
+  }
+  .products img{
+    width:100%;
+  }
+  .grandma{
+    top: -280px;
+    left: 0px;
+    float: none;
+    position: relative;
+
+    width: 100%;
+  }
+  .grandma img{
+
+    width:100%;
+  }
+  .mixer img{
+    width: 100%;
+  }
+  .secret{
+    top: -70px;
+    width: 65%;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .white-rect{
+    left: 200px;
+    top: 150px;
+    width: 70%;
   }
 .tradition .text{
-  top: -210px;
- right:-85px;
-  font-size: 0.6rem;
+  top: 300px;
+  right:-100px;
+  font-size: 1rem;
 }
   .tradition{
     width: inherit;
