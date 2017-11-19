@@ -534,6 +534,247 @@ section{
 /*===================
   MEDIA QUERIES
 =====================*/
+@media only screen and (max-width:414px){
+  .news-form .button{
+    position:absolute;
+    top:130px;
+    left: 240px;
+
+  }
+
+  header{
+    margin: 10px 10px 0 10px;
+    border-radius: 7px 7px 0 0;
+  }
+  section{
+    border-radius: 0 0 7px 7px;
+    margin: 0 10px 10px 10px;
+  }
+
+  .social{
+    padding: 80px 0 50px 0;
+  }
+  .social .col-md-4{
+    /*margin: 0 auto;*/
+  }
+
+  .smedia span{
+    width: 31%;
+    margin: 0 auto;
+    /*float: right;*/
+    padding: 20px 10px 20px 10px ;
+  }
+  .up span{
+    width: 66%;
+    margin: auto;
+  }
+  .copyright span{
+    text-align: center;
+    padding: 0 0  0 0;
+  }
+  .credits span{
+    font-size:8px;
+    text-align: center;
+  }
+
+  .row-1{
+    position: relative;
+    left:0;
+    top: auto;
+  }
+  .organic-text{
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    top: 150px;
+    right:-25px ;
+  }
+  .organic{
+    margin:auto;
+    top: 0;
+    right: 90px;
+    width: 100%;
+  }
+  .tradition .para{
+    top:295px;
+    right:-120px;
+    width: 48%;
+    font-size: 0.5rem;
+  }
+  .pink-square img{
+    width: 100%;
+    position: absolute;
+    top:280px;
+    left: 80px;
+  }
+  .homemade img{
+    width: 70%;
+  }
+  .homemade{
+    top: -80px;
+    left: 20px;
+    width: 80%;
+  }
+  .mixer{
+    top: -65px;
+  }
+  .discover{
+    font-size: .7rem;
+    top: 200px;
+    letter-spacing: 5px;
+  }
+  .order-box h5{
+    text-align: center;
+    margin: 0 auto;
+    font-size:25px;
+  }
+  .order-box p {
+    margin: 0 0 0 0;
+    padding: 20px 0 20px 0 ;
+    font-size: .8rem;
+  }
+  .orbox{
+    top: 70px;
+  }
+  .newsletter{
+    text-align: center;
+  }
+  .loc{
+    text-align: center;
+  }
+  .map {
+    padding: 30px 0 0 0;
+  }
+  .map a span{
+    text-align: center;
+    padding: 70px  50px 0 0px;
+    float: none;
+  }
+  .button{
+    left:100px ;
+    top: -50px;
+  }
+  .orbox .order-box{
+    margin: auto;
+    position: relative;
+    padding:30px 30px 30px 30px ;
+    border: 2px solid;
+    float:  none;
+    left: 0px;
+    width:  auto;
+  }
+  .product-text{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    top: auto;
+  }
+  .products img{
+    width:100%;
+  }
+  .grandma{
+    top: -280px;
+    left: 0px;
+    float: none;
+    position: relative;
+
+    width: 100%;
+  }
+  .grandma img{
+
+    width:100%;
+  }
+  .mixer img{
+    width: 100%;
+  }
+  .secret{
+    top: -70px;
+    width: 65%;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .white-rect{
+    left: 200px;
+    top: 150px;
+    width: 70%;
+  }
+.tradition .text{
+  top: 300px;
+  right:-100px;
+  font-size: 1rem;
+}
+  .tradition{
+    width: inherit;
+  }
+  .row2{
+    padding-top: 80px
+  }
+  .honey img{
+    width: 50%;
+  }
+  .rect-text{
+    border: 3px solid;
+    padding:10px 10px ;
+    width: 40%;
+    font-size: .5rem;
+    position: relative;
+    top: -160px;
+    left: 150px;
+  }
+  .row-1-text{
+    position: relative;
+    top:-auto;
+    right: 65px;
+    line-height: 15px;
+    }
+    .row-1 .rect{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  .rect img{
+    width: 80%;
+    height: 80%;
+  }
+  .row-1 .deer{
+    left: 60px;
+    top: 26px;
+  }
+  .row-1 .lines{
+    width:80%;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+  }
+  .deer img{
+     position: relative ;
+     top: auto;
+     left:auto;
+
+   }
+  .banner .menu{
+    position: relative;
+    top: 10px;
+    left: 285px;
+  }
+  .logo{
+    position:absolute;
+    top:10px;
+    left: 10px;
+
+  }
+  .logo .bigLogo{
+    font-size: 85%;
+  }
+  .logo .underLogo{
+    font-size: 65%;
+  }
+  .row-1 .deer{
+    position: relative;
+    right:900px ;
+  }
+}
 
 @media screen and (min-width: 1200px){
 .content .container-fluid .container {
